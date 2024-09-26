@@ -1,0 +1,36 @@
+# Node.js зависимости
+node_modules/
+dist/
+
+# Лог-файлы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Lock-файлы пакетов (если используется другой менеджер пакетов)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Temp files
+*.tmp
+*.log
+
+# GitHub actions или CI/CD
+/.github/
+
+# MacOS специфические файлы
+.DS_Store
+
+# Локальные среды разработки
+.env
+.env.*.local
+
+# Временные файлы сборки
+.vite
